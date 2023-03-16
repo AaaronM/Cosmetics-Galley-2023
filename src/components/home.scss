@@ -1,0 +1,53 @@
+@import "./mixins.scss";
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i");
+
+
+.home {
+    height: 95vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(#D6D6D5, #D9D8D8);
+   
+
+    &__pic {
+        
+        background-color: transparent;
+        position: relative;
+        margin-top: 20rem;
+    }
+
+    &__h1 {
+        color: #d81b28;
+        font-family:inherit;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 5rem;
+        margin-bottom: 4rem;
+        
+       
+       
+        
+        
+
+    
+    }
+    
+    &__p {
+        
+        color: gray;
+        font-family:inherit;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 2rem;
+        
+
+    }
+}
+

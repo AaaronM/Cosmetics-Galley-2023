@@ -1,0 +1,104 @@
+.modal {
+  height: 500px;
+  background-color: white;
+}
+
+.popup-overlay {
+}
+
+.popup-content {
+  border-radius: 20px;
+  align-items: center;
+  background-color: white;
+  -webkit-animation: anvil 0.3s cubic-bezier(0.2, -2, 0.8, 2) forwards;
+}
+.content {
+  position: relative;
+  background-color: white;
+  &__h3 {
+    color: rgb(93, 131, 34);
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  &__p {
+    color: gray;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 3rem;
+    text-align: center;
+  }
+
+  &__btn {
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    font-size: 2rem;
+
+    &:hover {
+      box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+    }
+  }
+
+  &__plant {
+    font-size: 9rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(93, 131, 34);
+  }
+}
+
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}

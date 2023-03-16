@@ -1,0 +1,477 @@
+.section__about {
+  height: 100vh;
+  margin-top: 30rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rem 10rem;
+  position: relative;
+}
+
+.text {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 7rem;
+  left: 50rem;
+  border-radius: 50%;
+  transition: all 0.5s;
+  transition-delay: 250ms;
+  opacity: 0;
+
+  &__exp {
+    font-size: 2rem;
+    // border: 1px solid rgba(255, 255, 255, 0.3);
+    // background-color: rgba(255, 255, 255, 0.2);
+    // border-radius: 16px;
+    // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    // backdrop-filter: blur(20px);
+    // -webkit-backdrop-filter: blur(5px);
+    object-fit: cover;
+    font-family: "Nunito", sans-serif;
+    color: rgb(46, 45, 45);
+    font-weight: 300;
+  }
+}
+
+.card__invis__about:hover > .text__h3 {
+  font-size: 5rem;
+  font-family: "Nunito", sans-serif;
+  color: rgb(46, 45, 45);
+  font-weight: 300;
+  margin-bottom: 2rem;
+  opacity: 1;
+  position: absolute;
+  top: -3rem;
+  left: 52rem;
+}
+
+.text__h3 {
+  font-size: 5rem;
+  font-family: "Nunito", sans-serif;
+  color: rgb(46, 45, 45);
+  font-weight: 300;
+  margin-bottom: 2rem;
+  opacity: 1;
+  position: absolute;
+  top: 20rem;
+  left: 48rem;
+  transition: all 1s;
+}
+
+.icons__flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.icons {
+  font-size: 3rem;
+  margin-top: 1rem;
+
+  &__text {
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    color: rgb(46, 45, 45);
+    font-weight: 300;
+  }
+}
+
+.card__invis__about:hover > .text {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  top: 5rem;
+  left: 55rem;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.card__invis__about {
+  height: 500px;
+  width: 800px;
+  position: relative;
+}
+
+.card__invis__about:hover > .card {
+  transform: rotateY(-180deg) skewY(5deg);
+}
+
+.card__invis__about:hover > .card__item1__about {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  height: 7rem;
+  width: 10rem;
+  background-color: red;
+  opacity: 1;
+  z-index: 10;
+  transform: skewY(5deg) scale(1.2);
+  background-image: url(../img/orange.jpg);
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card__invis__about:hover > .card__item2__about {
+  position: absolute;
+  top: 35rem;
+  left: 5rem;
+  height: 10rem;
+  width: 15rem;
+  background-color: pink;
+  opacity: 1;
+  z-index: 10;
+  transform: skewY(-6deg);
+  background-image: url(../img/girl.jpg);
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+.card__invis__about:hover > .card__item3__about {
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+  height: 7rem;
+  width: 10rem;
+
+  opacity: 1;
+  z-index: 11;
+  transform: skewY(-2deg) scale(1.1);
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.item3__text {
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  color: rgb(46, 45, 45);
+  font-weight: 300;
+}
+
+.card__invis__about:hover > .card__item4__about {
+  position: absolute;
+  top: 32rem;
+  left: 35rem;
+  height: 7rem;
+  width: 15rem;
+
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  opacity: 1;
+  z-index: 12;
+  transform: skewY(-2deg);
+}
+
+.item4__text {
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+  color: rgb(46, 45, 45);
+  font-weight: 300;
+}
+
+.card__invis__about:hover > .card__item5__about {
+  position: absolute;
+  top: 25rem;
+  left: 37rem;
+  height: 3rem;
+  width: 5rem;
+  opacity: 1;
+  z-index: 10;
+  transform: scale(2) rotate(20deg);
+}
+
+.item5__text {
+  font-size: 5rem;
+  color: palevioletred;
+}
+
+.card__invis__about:hover > .card__item6__about {
+  position: absolute;
+  top: 15rem;
+  left: 30rem;
+  height: 15rem;
+  width: 20rem;
+  opacity: 1;
+  z-index: 10;
+  transform: scale(1.2);
+  z-index: -1;
+  background-image: url(../img/plant.jpg);
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card__invis__about:hover > .card__item7__about {
+  position: absolute;
+  top: 5rem;
+  left: 30rem;
+  height: 15rem;
+  width: 20rem;
+  opacity: 1;
+  z-index: 10;
+  transform: scale(1.2);
+  z-index: 15;
+}
+
+.card__invis__about:hover > .card__item8__about {
+  position: absolute;
+  top: 15rem;
+  left: 20rem;
+  height: 30rem;
+  width: 50rem;
+  opacity: 1;
+  z-index: 10;
+  transform: translateX(-20rem) rotate(20deg);
+  transition: all 0.9s;
+  transition-delay: 300ms;
+  z-index: -30;
+  background-image: url(../img/color.avif);
+  border-radius: 30px;
+}
+
+.item7__text {
+  font-size: 8rem;
+  color: rgb(141, 91, 141);
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  position: relative;
+  display: flex;
+  align-self: center;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 10rem;
+  transition: all 0.8s ease-in-out;
+  background-image: url(../img/unsplash.jpg);
+  background-size: cover;
+  object-fit: cover;
+
+  &__item1__about {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    height: 7rem;
+    width: 10rem;
+
+    opacity: 0;
+    z-index: 10;
+    transition: all 0.5s;
+  }
+
+  &__item2__about {
+    position: absolute;
+    top: 35rem;
+    left: 5rem;
+    height: 10rem;
+    width: 15rem;
+
+    opacity: 0;
+    z-index: 10;
+    transition: all 0.9s;
+  }
+
+  &__item3__about {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    height: 7rem;
+    width: 10rem;
+
+    opacity: 0;
+    z-index: 11;
+    transition: all 0.9s;
+  }
+
+  &__item4__about {
+    position: absolute;
+    top: 30rem;
+    left: 35rem;
+    height: 7rem;
+    width: 15rem;
+
+    opacity: 0;
+    z-index: 10;
+    transition: all 0.3s;
+  }
+
+  &__item5__about {
+    position: absolute;
+    top: 29rem;
+    left: 37rem;
+    height: 3rem;
+    width: 5rem;
+
+    opacity: 0;
+    z-index: 10;
+    transition: all 0.9s;
+  }
+
+  &__item6__about {
+    position: absolute;
+    top: 15rem;
+    left: 32rem;
+    height: 10rem;
+    width: 15rem;
+
+    opacity: 0;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.9s;
+    z-index: -1;
+  }
+
+  &__item7__about {
+    position: absolute;
+    top: 10rem;
+    left: 32rem;
+    height: 10rem;
+    width: 15rem;
+
+    opacity: 0;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.9s;
+    z-index: -1;
+  }
+
+  &__item8__about {
+    position: absolute;
+    top: 15rem;
+    left: 20rem;
+    height: 30rem;
+    width: 50rem;
+    opacity: 0;
+    z-index: 10;
+    transform: translateX(-20rem) rotate(20deg);
+    transition: all 0.9s;
+    z-index: -30;
+    border-radius: 16px;
+  }
+}
+
+.reviews__about {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  align-self: center;
+  width: 200px;
+
+  &__1 {
+    height: 10rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.4s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 5px 2px gray;
+      border: 1px solid gray;
+    }
+  }
+
+  &__2 {
+    height: 10rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.4s;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 5px 2px gray;
+      border: 1px solid gray;
+    }
+  }
+
+  &__about__3 {
+    height: 10rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.4s;
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 5px 2px gray;
+      border: 1px solid gray;
+    }
+  }
+}
+
+.section-about-h1 {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(5px);
+  object-fit: cover;
+  font-family: "Nunito", sans-serif;
+  color: rgb(46, 45, 45);
+  font-weight: 300;
+  transition: all 0.9s;
+  display: flex;
+  margin: auto;
+  align-items: center;
+
+  outline: 0;
+
+  cursor: pointer;
+
+  color: rgb(72, 76, 122);
+  font-size: 14px;
+  height: 25px;
+  padding: 8px 24px;
+  border-radius: 50px;
+
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+    0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all 0.2s ease-out;
+  :hover {
+    box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%),
+      0 4px 6px 0 rgb(93 100 148 / 20%);
+  }
+}
